@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto');
+
+* {
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+	font-family: 'Open Sans', sans-serif;	
+}
+
+body{
+	margin: 0;
+	
+}
+
+/*start navbar*/
+.navbar-brand{
+    color: #BE9063 !important;
+    font-weight: bold;
+    font-size: 22px;
+
+}
+.navbar-nav .nav-link{
+    text-transform: uppercase; 
+    font-weight: bold;
+}
+.navbar-light .navbar-nav .active>.nav-link{
+    color: #BE9063;
+}
+.navbar .dropdown-menu {
+    min-width: 8rem;
+    text-align: center;
+}
+/*end navbar*/
+
+/* form add user */
+.form-signin {
+    width: 300px;
+}
+.form-signin input{
+    margin-bottom: 10px;
+}
+
+.form-signin .form-control{
+    background-color: #e5e5e5; 
+}
+
+.form-signin h1,
+.Text-blue
+{
+    font-family:  Open Sans ;
+    color:#007bff ;
+}
+.CForm{
+
+    margin-top: 50px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#from{
+    display: none;
+}
+/* End end form add user*/
