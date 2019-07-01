@@ -10,8 +10,7 @@
 
  
 ## Installation
-* Clone Or download Project
-* Extract Project at F
+
 * Clone Or download Project
 * Extract Project at Folder htdocs in xampp apache v 3.2
 * Create database name (olx) Mysql .. at file varse.php in model Folder 
